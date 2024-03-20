@@ -1,0 +1,6 @@
+services:
+  web:
+    build:
+      context: .
+      target: dev. ## Referring to dev stage here.
+    image: web-dev-img
